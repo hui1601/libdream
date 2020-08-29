@@ -14,8 +14,8 @@ int main(){
     int param_3 = 0xcad63;
     iVar1 = param_3 + 0x1f;
     int64_t cul = (param_3 + (int64_t) ((param_3 / 0x36 + (param_3 >> 0x1f)) - (int)((long long)param_3 * 0x4bda12f7 >> 0x3f)) * -0x36) * 8;
-    printf("%s.", arr1[0] + cul + 6);
+    printf("%s.", arr1[0] + cul + 6);//SomethingWrong1
     cul = (long long)(iVar1 + ((iVar1 / 0x39 + (iVar1 >> 0x1f)) - (int)((long long)iVar1 * 0x8fb823ef >> 0x3f)) * -0x39) * 8;
-    printf("%s\n", arr2[0] + cul - 1);
+    printf("%s\n", arr2[0] + cul - 1);//SomethingWrong2
     return 0;
 }
