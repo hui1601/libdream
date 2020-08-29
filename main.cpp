@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 char *arr1[] = {"adrp.ldrsh.ldnp", "ldpsw", "umax", "stnp.rsubhn", "sqdmlsl", "uqrshl.csel", "umin.usubl.umlsl", "cbnz.adds", "tbnz", "usubl2", "stxr", "sbfx", "strh", "stxrb.adcs", "stxrh", "ands.urhadd", "subs", "sbcs"},
-*arr2[] = {"fnmadd.ldxrb.saddl", "stur", "ldrsb", "prfm", "ubfiz", "ldrsw.madd.msub.sturb.ldursb", "b.eq", "ldur.sbfiz", "extr", "uqadd", "sshr.uzp1.sttrb", "rsubhn2.ldrh.uqsub", "uqshl", "uabd", "ursra"},
-*arr3[] = {};
+*arr2[] = {"fnmadd.ldxrb.saddl", "stur", "ldrsb", "prfm", "ubfiz", "ldrsw.madd.msub.sturb.ldursb", "b.eq", "ldur.sbfiz", "extr", "uqadd", "sshr.uzp1.sttrb", "rsubhn2.ldrh.uqsub", "uqshl", "uabd", "ursra"};
 int main(){
     int iVar1;
     size_t sVar2;
